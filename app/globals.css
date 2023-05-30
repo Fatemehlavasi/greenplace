@@ -105,3 +105,9 @@ a {
     color-scheme: dark;
   }
 }
+
+
+@font-face {
+  font-family:"Kalameh";
+  src: url(../Assets//Fonts/kalameh/KalamehWeb\(FaNum\)-Regular.woff2);
+}

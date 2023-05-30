@@ -19,19 +19,19 @@ export const theme = createTheme({
         MuiButton:{
             variants: [
                 {
-                    props: {variant: 'outlined'},
+                    props: {variant: 'contained'},
                     style: {
-                        color: '#FF38AC',
+                        color: '#fff',
                         border: "0.09375rem solid rgba(255, 0, 166, 0.06)",
-                        backgroundColor: '#fff',
-                        borderRadius: '3rem',
+                        backgroundColor: '#40513b',
+                        borderRadius: '5px',
                         textAlign: 'center',
                         // width: "auto",
-                        minWidth:" 6.6875rem",
-                        boxShadow:"rgb(58 61 66 / 6%) 0px 1px 0px, rgb(0 0 0 / 20%) 0px 4px 16px -8px" ,
+                        minWidth:" 40px",
+                        // boxShadow:"rgb(58 61 66 / 6%) 0px 1px 0px, rgb(0 0 0 / 20%) 0px 4px 16px -8px" ,
                         lineheight: 1.75,
                         '&:hover': {
-                            backgroundColor: '#FF38AC',
+                            backgroundColor: '#40513b',
                             color: '#FFf',
                         }
                     }
@@ -81,30 +81,20 @@ export const theme = createTheme({
     fontFamily:'IranSansMobile',
     //title app section
     h1:{
-        fontSize:'2rem',
+        fontSize:'23px',
         fontWeight:700,
-        color:'rgb(58, 61, 66)',
-        lineHeight:'2rem',
+        color:'#00000',
+        lineHeight:'23px',
     },
 
     //title container
-    h2:{
-        fontSize:'1.5rem',
-        fontWeight:700,
-        color:'rgb(58, 61, 66)',
-        lineHeight:'2rem'
+   lable:{
+        fontSize:'12px',
+        fontWeight:500,
+        color:'#171717',
+        lineHeight:'23px'
     },
-    //see all,title card
-    h3:{
-        fontSize:'1.125rem',
-        fontWeight:700,
-        color:'rgb(58, 61, 66)',
-        lineHeight:'1.75rem'
-    },
-    h6:{
-        fontSize:'10px',
-        fontWeight:600,
-    },
+    
     //card description
     subtitle1:{
         fontSize:'0.75rem',
